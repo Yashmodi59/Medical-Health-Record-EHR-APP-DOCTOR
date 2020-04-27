@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">SGHDOC</string>
+    <string name="title_activity_doc__drawer">Doc_Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="main_history">Medical History</string>
+    <string name="main_profile">Profile</string>
+    <string name="main_vitals">Vitals</string>
+    <string name="main_report">Medical Reports</string>
+    <string name="main_search">Search Doctor</string>
+    <string name="main_prescription">Prescription</string>
+    <string name="main_medical_document">Medical Documents</string>
+    <string name="main_allergy">Allergy</string>
+    <string name="main_self">Self Observations</string>
+    <string name="main_appoinment">Appoinment Scheduling</string>
+    <string name="title_activity_allergy">AllergyActivity</string>
+    <string name="allergy_type_prompt">Select Type</string>
+    <string name="severity_prompt">Choose One</string>
+    <string name="blood_group_prompt">Select your Group</string>
+    <string-array name="blood_group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="Medical_History">
+        <item>Major Illness</item>
+        <item>Minor Illness</item>
+        <item>Surgical</item>
+        <item>Allergic</item>
+        <item>Sexual</item>
+        <item>Obstetric</item>
+        <item>Genetically</item>
+        <item>Disordered</item>
+        <item>Operative</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="severity_arrays">
+        <item>Mild</item>
+        <item>Mild To Moderate</item>
+        <item>Moderate</item>
+        <item>Moderate To Severe</item>
+        <item>Severe</item>
+        <item>Life Threatening Severity</item>
+    </string-array>
+    <string-array name="allergy_type_arrays">
+        <item>Drugs</item>
+        <item>Food</item>
+        <item>Environment</item>
+    </string-array>
+    <string name="bp">Blood Pressure</string>
+    <string name="bp1">BodyTemperature</string>
+    <string name="bp2">Heart Rate</string>
+    <string name="bp3">Respiration Rate</string>
+    <string-array name="Document_type">
+        <item>Blood Report</item>
+        <item>X-Ray</item>
+        <item>MRI</item>
+        <item>CT-Scan</item>
+        <item>Pathology</item>
+        <item>Sonography</item>
+        <item>Pathology</item>
+        <item>Spirometry</item>
+        <item>Sterss/Mental Health</item>
+        <item>Other</item>
+    </string-array>
+
+
+</resources>

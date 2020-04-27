@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/colorPrimary">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Date"
+            android:layout_marginStart="20dp"
+            android:textAlignment="textStart"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/dv9"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_below="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/dv1"
+            android:layout_width="0dp"
+            android:textColor="@color/colorAccent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/bp" />
+
+        <TextView
+            android:id="@+id/dv2"
+            android:layout_width="0dp"
+            android:textColor="@color/colorAccent"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/bp1" />
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:id="@+id/dv3"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/bp2" />
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:id="@+id/dv4"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/bp3" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/dv5"
+            android:layout_width="0dp"
+            android:textColor="#000"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/bp" />
+
+        <TextView
+            android:id="@+id/dv6"
+            android:layout_width="0dp"
+            android:textColor="#000"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/bp1" />
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/dv7"
+
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/bp2" />
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/dv8"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:text="@string/bp3" />
+
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

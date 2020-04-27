@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Date"
+            android:layout_marginStart="20dp"
+            android:textAlignment="textStart"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/user_date"
+            android:textColor="@color/colorAccent"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Allergy Name"
+            android:layout_marginStart="20dp"
+            android:textAlignment="textStart"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/user_allergy_name"
+            android:textColor="#000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Allergy Type"
+                android:layout_marginStart="20dp"
+                android:textAlignment="textStart"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginEnd="80dp"
+                android:id="@+id/user_allergy_type"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Allergy Type"
+                android:layout_marginStart="20dp"
+                android:textAlignment="textStart"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:id="@+id/user_allergy_severity"
+                android:textColor="#000"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Still Have"
+            android:layout_marginStart="20dp"
+            android:textAlignment="textStart"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/user_allergy_still_have"
+            android:textColor="@color/colorAccent"/>
+    </LinearLayout>
+
+</RelativeLayout>

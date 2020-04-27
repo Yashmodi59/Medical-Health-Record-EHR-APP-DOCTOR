@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:background="@drawable/welcome"
+    android:layout_height="match_parent"
+    tools:context=".PatientDocument.Add_Doc_Pat_Doc">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/presc_doctor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Laboratory Name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="#0029BF"
+
+            />
+
+        <EditText
+            android:id="@+id/med_lab_name"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/presc_doctor"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="15dp"
+            android:hint="Type Laboratory Name"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="#0029BF"
+            />
+
+        <TextView
+            android:id="@+id/presc_rema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Remarks/Prescribed:-"
+            android:layout_below="@+id/med_lab_name"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="#0029BF"
+
+            />
+
+        <EditText
+            android:id="@+id/med_remarks"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/presc_rema"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="15dp"
+            android:hint="Type Remarks"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="#0029BF"
+            />
+        <TextView
+            android:id="@+id/presc_severe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Report Type"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/med_remarks"
+            android:textColor="#0029BF"
+            />
+        <Spinner
+            android:id="@+id/med_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/presc_severe"
+            android:entries="@array/Document_type"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="1dp"
+            android:prompt="@string/severity_prompt"
+            android:scrollbarSize="25dp"
+            android:layout_margin="15dp"
+            android:textColor="#0029BF"
+            />
+        <TextView
+            android:id="@+id/presc_next_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Prescribed Doctor Name"
+            android:layout_below="@+id/med_btn_add"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="#0029BF"
+
+            />
+
+
+        <EditText
+            android:id="@+id/med_dname"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/presc_next_r"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="15dp"
+            android:hint="Type Doctor Name"
+            android:inputType="text"
+            android:padding="20dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColor="#0029BF"
+            />
+
+        <Button
+            android:id="@+id/med_btn_add"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/med_spinner"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_create_new_folder_black_24dp"
+            android:text="Add Document" />
+
+        <Button
+            android:id="@+id/med_Submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/med_dname"
+            android:layout_margin="10dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:background="@drawable/input_design"
+            android:textColor="#0029BF"/>
+    </RelativeLayout>
+
+</ScrollView>
